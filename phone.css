@@ -1,0 +1,65 @@
+/* Navigation section */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 5px;
+}
+
+/* home section  */
+#home {
+    height: 314px;
+    padding: 0px 28px;
+}
+
+#home::before {
+    height: 480px;
+    top: -167px;
+}
+
+#home p {
+    font-size: 13px;
+}
+
+/* Services section  */
+#services {
+    flex-direction: column;
+}
+
+#services .box {}
+
+/* Clients section  */
+#client-section::before {
+    opacity: 0.7;
+}
+
+#clients {
+    flex-wrap: wrap;
+}
+
+#clients img {
+    width: 70px;
+    padding: 3px;
+    height: auto;
+    /*very imp isse height sahi set hogi rrsponsive main*/
+}
+
+/* Contact section  */
+#contact-box form {
+    width: 80%;
+}
+
+
+/* Footer  */
+/* Utility Classes */
+.h-primary {
+    font-size: 26px;
+}
+
+.btn {
+    font-size: 12px;
+    padding: 4px 8px;
+}
